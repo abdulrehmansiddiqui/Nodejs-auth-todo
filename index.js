@@ -27,7 +27,7 @@ mongoose.connection.on('error', (err) => {
     console.log("This is error", err)
 })
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 1000
 
 app.listen(PORT, () => {
     console.log("Server Running " + PORT)
